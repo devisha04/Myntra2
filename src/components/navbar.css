@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo img {
+  width: 100px; /* Logo size can be adjusted */
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.links a, .links button {
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.links a:hover, .links button:hover {
+  color: #0056b3; /* Highlight color on hover */
+}
+
+.links Button {
+  transition: transform 0.3s ease-in-out;
+}
+
+.links Button:hover {
+  transform: translateY(-2px);
+}

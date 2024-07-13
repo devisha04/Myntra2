@@ -1,0 +1,84 @@
+/* src/pages/FashionBattle.css */
+
+.fashion-battle-container {
+    padding: 20px;
+    text-align: center;
+    /* background-color: #f7f9fc; */
+    background: linear-gradient(to bottom, #ff99cc 0%, #ff9966 100%);
+  }
+  
+  .hero-section {
+    background: url('https://www.shutterstock.com/image-photo/brunette-asian-woman-red-fashionable-260nw-2235546605.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px 20px;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 40px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+  }
+  
+  .battle-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .battle-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .battle-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .battle-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .battle-card-content {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .battle-card-content h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #194f92;
+  }
+  
+  .battle-card-content p {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .battle-card-content .vote-button {
+    background-color: #401fc3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .battle-card-content .vote-button:hover {
+    background-color: #000072;
+  }

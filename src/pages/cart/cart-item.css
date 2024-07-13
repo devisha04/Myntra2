@@ -1,0 +1,40 @@
+.cartItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .description {
+    margin-left: 20px;
+  }
+  
+  .countHandler {
+    display: flex;
+    align-items: center;
+  }
+  
+  .matchButton, .wishlistHeart, .ecoFriendlyButton {
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .matchButton {
+    background-color: red;
+    color: white;
+  }
+  
+  .wishlistHeart {
+    background-color: transparent;
+    color: red;
+    font-size: 24px;
+  }
+  
+  .ecoFriendlyButton {
+    background-color: green;
+    color: white;
+  }
+  
